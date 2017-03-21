@@ -1,0 +1,62 @@
+@import "palette";
+.main {
+  font-family: $font-family;
+
+  h1 {
+    font-size: $font-size * 2.0;
+  }
+  h2 {
+    font-size: $font-size * 1.8;
+    color: $color3;
+  }
+  h3 {
+    font-size: $font-size * 1.4;
+    color: $color2;
+  }
+  h4 {
+    font-size: $font-size * 1.2;
+    color: $color1;
+  }
+  h5 {
+    color: $color4;
+    font-size: $font-size * 1.0; // for consistency
+  }
+  h6 {
+    font-size: $font-size * 0.8;
+    color: darken($color4, 50%);
+  }
+  input, img, textarea {
+    border-radius: $border-radius;
+    font-size: $font-size;
+    font-family: $font-family;
+    color: $color3;
+  }
+}
+
+a, p{
+  font-size: $font-size;
+}
+
+table {
+  thead {
+      font-size: $font-size * 1.2;
+  }
+  tr
+  {
+    text-align: center;
+
+    td {
+      font-size: $font-size;
+      color: darken($color2, 20%);
+    }
+  }
+}
+
+figure {
+  figcaption {
+    color: $color3;
+  }
+  img {
+    max-width: 300px;
+  }
+}
